@@ -1,0 +1,35 @@
+.container-countdown {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-countdown h1 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.countdown article {
+  margin: 10px;
+}
+
+.countdown p {
+  padding: 20px;
+  width: 100px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.countdown h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
