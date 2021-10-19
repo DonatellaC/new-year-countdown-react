@@ -1,5 +1,5 @@
-import './App.css';
-import Countdown from './components/Countdown/Countdown';
+import "./App.css";
+import Countdown from "./components/Countdown/Countdown";
 
 const App = () => {
   return (
@@ -7,6 +7,6 @@ const App = () => {
       <Countdown />
     </div>
   );
-}
+};
 
 export default App;
