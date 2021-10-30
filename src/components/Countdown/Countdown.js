@@ -10,7 +10,10 @@ const Countdown = () => {
   const [countdownOver, setCountdownOver] = useState(false);
 
   const timer = () => {
-    const countDownDate = new Date("Jan 01, 2022 00:00:00").getTime();
+    const currentYear = new Date().getFullYear();
+    const nextYear = currentYear + 1;
+
+    const countDownDate = new Date(`Jan 01, ${nextYear} 00:00:00`).getTime();
 
     // Get current date time
     const todayDate = new Date().getTime();
@@ -59,7 +62,7 @@ const Countdown = () => {
         <CountdownOver />
       ) : (
         <section className="container-countdown">
-          <h1>Countdown New Year</h1>
+          <h1>New Year Countdown</h1>
           <div className="countdown">
             <article>
               <p>{days}</p>
